@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- prva tri linka su dodati fontovi -->
+    <link rel="stylesheet" href="style/pc-style.css">
+    <link rel="stylesheet" href="style/tablet-style.css">
+    <link rel="stylesheet" href="style/landscape-mobile-style.css">
+    <link rel="stylesheet" href="style/mobile-style.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <!-- linkovani css fajlovi -->
+    <link rel="shortcut icon" href="style/slike/about-logo.png" type="image/x-icon">
+    <title>Book an appointment</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><img class="nav-img" src="style/slike/menu-logo.png" alt="logo"></a>
+            <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="events.html" class="nav-link">EVENTS</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+            <li><div class="nav-content">
+                <div class="soc-media nav-soc">
+                    <a href="https://www.linkedin.com/" class="soc-link"><img src="style/slike/in.svg" alt="in"></a>
+                    <a href="https://twitter.com/i/flow/login" class="soc-link"><img src="style/slike/tw.png" alt="tw"></a>
+                    <a href="https://www.facebook.com/" class="soc-link"><img src="style/slike/fb.svg" alt="fb"></a>
+                    <a href="https://www.instagram.com/" class="soc-link"><img src="style/slike/ig.svg" alt="ig"></a>
+                </div>
+            </li>
+            <li>
+                <a class="nav-btn" href="booknow.html">
+                    <div class="nav-btn-content"><p class="btn-text">Book Now</p></div>
+                </a>
+            </li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="secondary-hero-section">
+        <div class="container">
+            <h1 class="hero-heading">Book Now</h1>
+            <div class="heading-underline"></div>
+        </div>
+    </section>
+    <section class=" all-section book-section">
+        <div class="container form-cnt">
+            <div class="form-wrapper">
+            <form class="form">
+                <div class="name-wrapper"><input id="name" type="text" name="name" placeholder="First Name">
+                <input id="surname" type="text" name="surname" placeholder="Last Name"></div>
+                <div class="doctors">
+                    <div class="radio-item">
+                        <input type="radio" id="nutricionist" name="doctortype" value="Nutricionist" checked="checked">
+                        <label for="nutricionist">Nutricionist</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="cardiologist" name="doctortype" value="Cardiologist">
+                        <label for="cardiologist">Cardiologist</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" id="pediatrician" name="doctortype" value="Pediatrician">
+                        <label for="pediatrician">Pediatrician</label>
+                    </div>
+                </div>
+                <div class="date-picker">
+                    <input style="display: block;" type="date" name="appointment" id="appointment">
+                </div>
+                <div class="btn-wrapper">
+                    <button type="submit" id="book-btn" class="main-btn">Book</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+    <footer class="all-section">
+        <div class="container footer-cnt">
+            <div class="img-wrapper"><img src="style/slike/footer-logo.png" alt=""></div>
+            <div class="footer-menu">
+                <a href="#" class="footer-link">HOME</a>
+                <a href="#" class="footer-link">EVENTS</a>
+                <a href="#" class="footer-link">CONTACT</a>
+            </div>
+            <div class="subscribe">
+                <form>
+                    <label class="footer-label" for="email">Sign up for email updates.</label>
+                    <div class="form-input-div">
+                        <input id="subscribe-mail" class="email-input" type="text" name="email" placeholder="Email Adress">
+                        <button id="submit" class="main-btn" type="submit">SUBSCRIBE</button>
+                    </div>
+                </form>
+                <div class="soc-media foot-soc">
+                    <a href="https://www.linkedin.com/" class="soc-link"><img src="style/slike/in.svg" alt="in"></a>
+                    <a href="https://twitter.com/i/flow/login" class="soc-link"><img src="style/slike/tw.png" alt="tw"></a>
+                    <a href="https://www.facebook.com/" class="soc-link"><img src="style/slike/fb.svg" alt="fb"></a>
+                    <a href="https://www.instagram.com/" class="soc-link"><img src="style/slike/ig.svg" alt="ig"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script/nav.js"></script>
+    <script src="script/book.js"></script>
+    <script src="script/submit.js"></script>
+</body>
+</html>

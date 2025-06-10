@@ -1,0 +1,407 @@
+@media screen and (min-width: 992px){
+
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+section{
+    margin: 0;
+}
+p{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.56);
+}
+html, body{
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+
+/* POCETNA STRANICA */
+header{
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+    margin-top: 20px;
+}
+.hero-section{
+    padding-top: 240px;
+    padding-bottom: 150px;
+    background: linear-gradient(0deg, rgba(4, 22, 66, 0.3), rgba(4, 22, 66, 0.3)), url(slike/hero-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 800;
+}
+.hero-heading{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.heading-underline{
+    width: 170px;
+    max-height: 6px;
+    min-height: 6px;
+    background-color: #b7c355;
+    margin-top: 60px;
+}
+
+.features-section{
+        display: flex;
+}
+.f-content{
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.f-content-wrapper{
+    width: 50%;
+    display: flex;
+}
+.green{
+    background-color: #b7c355;
+}
+.red{
+    background-color: #da5e5a;
+}
+.blue{
+    background-color: #44acb4;
+}
+.orange{
+    background-color: #e2804c;
+}
+.f-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.f-img{
+    margin: 0;
+}
+.f-paragraph{
+    color: white;
+    font-size: 18px;
+}
+
+.all-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.about-img-wrapper{
+    margin-right: 100px;
+    width: 33%;
+}
+.about-heading{
+    max-width: 370px;
+}
+.about-content{
+    width: 66%;
+}
+.section-heading{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.line-wrapper{
+    max-width: 1200px;
+    height: 1px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5e5e5;
+    align-items: center;
+}
+.line-notch{
+    background-color: #44acb4;
+    width: 50px;
+    height: 5px;
+}
+.center{
+    justify-content: center;
+}
+.exe-heading{
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+.exe-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+.exe-content-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.exe-content{
+    text-align: center;
+    width: 45%;
+}
+.exe-content-heading{
+    font-size: 24px;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+}
+.exe-img{
+    max-width: 100%;
+}
+.main-btn{
+    background-color: #da5e5a;
+    width: 170px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.main-btn:hover{
+    background-color: #ac3b37;
+}
+.btn-text{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+.exe-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+footer{
+    background-color: #041443;
+}
+.footer-cnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer-link{
+    display: block;
+    color: #da5e5a;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.footer-label{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+}
+.form-input-div{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.email-input{
+    margin-right: 10px;
+    flex-grow: 2;
+    height: 100%;
+}
+.subscribe{
+    width: 45%;
+}
+.foot-soc{
+    margin-top: 15px;
+}
+
+
+/* BOOK NOW STRANICA */
+
+.secondary-hero-section{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: linear-gradient(0deg, rgba(4, 22, 66, 0.3), rgba(4, 22, 66, 0.3)), url(slike/hero-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.form-cnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input[type="text"], input[type="email"]{
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.doctors{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.form-wrapper{
+    background-color: #b7c355;
+    border-radius: 5px;
+    padding: 2px;
+}
+.form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+  .radio-item label {
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #44acb4;
+    background-color: transparent;
+  }
+  
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #44acb4;
+  }
+  .date-picker{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+ .btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+ }
+ .name-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ /* EVENT STRANICA */
+
+ .event{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    align-items: center;
+ }
+.event-cnt-wrapper{
+    display: flex;
+    
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    flex-direction: column;
+}
+.event-cnt-wrapper img {
+    width: 100%;
+    height: auto;
+}
+.event-cnt-wrapper.right{
+    text-align: right;
+}
+.event-heading{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/* CONTACT */
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.message-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
