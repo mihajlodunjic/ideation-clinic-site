@@ -20,9 +20,6 @@ It is not intended for real medical use or deployment by an actual clinic.
 - CSS3 (including Flexbox and Media Queries)
 - JavaScript (Vanilla JS)
 
-## 📸 Screenshots
-
-*(You can add screenshots here if you want, using Markdown image syntax)*
 
 ## 📦 Installation
 
