@@ -29,7 +29,7 @@ To run the website locally:
 2. Open the `index.html` file in your preferred browser.
 
 ```bash
-git clone https://github.com/mihajlodunjic/clinic-website.git
+git clone https://github.com/mihajlodunjic/ideation-clinic-site.git
 ```
 ## 📄 License
 This project is open for educational reference and personal learning.
